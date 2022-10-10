@@ -649,7 +649,9 @@ body {
   border-radius: 50%;
   background-color: var(--accent-text-color);
 }
-
+.form-footer {
+  display: flex;
+}
 .footer-sub-email {
   margin-left: 93px;
   display: flex;
