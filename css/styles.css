@@ -661,6 +661,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-button-color);
+  margin-bottom: 20px;
 }
 
 .backdrop {
