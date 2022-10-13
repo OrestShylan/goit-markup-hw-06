@@ -851,8 +851,9 @@ body {
 
 .form-checkbox {
   position: relative;
-  padding-left: 37px;
+  padding-left: 7px;
   margin-top: 10px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
