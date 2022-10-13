@@ -401,7 +401,7 @@
       <div class="footer-sub-email">
         <p class="footer-sub-text">Підпишіться на розсилку</p>
         <form class="form-footer" name="sing-up">
-         <input class="footer-input-email" type="email" name="email" placeholder="E-mail">
+        <label> <input class="footer-input-email" type="email" name="email" placeholder="E-mail" autocomplete="none"></label>
          <button type="submit" class="footer-button">Підписатися
           <svg class="icon-send" witdh="24px" height="24px">
                     <use href="./images/symbol-defs.svg#icon-send">
@@ -449,10 +449,13 @@
             <label  class="form-label" > Коментар
             <textarea name="user-coment" rows="7" placeholder="Введіть текст"></textarea></label>
             
-            <label for="">
+            <label class="form-checkbox"> 
               <input type="checkbox">
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="form-check-text"> Умови договору</a>
             </label>
             
+            <button type="button" class="form-button">Відправити </button>
           </form>
         </div>
 
