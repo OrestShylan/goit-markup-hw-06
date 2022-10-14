@@ -864,7 +864,7 @@ body {
 }
 
 .form-check-text {
-  text-decoration: none;
+  text-underline-offset: 4px;
   color: var(--accent-text-color);
 }
 
