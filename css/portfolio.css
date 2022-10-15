@@ -349,7 +349,7 @@ body {
 .footer {
   background-color: var(--footer-color);
   padding-top: 60px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 
 .link.footer {
@@ -361,7 +361,7 @@ body {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin: 0 auto;
 }
 .site-nav.link {
